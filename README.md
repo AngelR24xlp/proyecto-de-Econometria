@@ -12,7 +12,6 @@ Autor: Ángel Ricardo Marchan Collazos (GitHub: AngelR24xlp).
 | Código de **Términos de intercambio** `PN38923BM` (índice 2007=100, mensual, desde ene-1996) y de los índices de precios de exportaciones `PN38915BM` e importaciones `PN38919BM` | Verificados contra el listado público de BCRPData |
 | Resto de códigos de `config.py` | **CANDIDATOS.** El módulo 01 los contrasta con el nombre oficial de los metadatos del BCRP y registra el resultado en `data/raw/series_log.csv`. Si el nombre no coincide, la serie queda en `REQUIERE_REVISION` y hay que fijar el código en `catalogo/series_override.csv` |
 | Pipeline 02-09 | Probado de punta a punta con datos **sintéticos** (`tests/smoke_test.py`). Esa prueba solo demuestra que el código corre; sus números no significan nada |
-| Resultados con datos reales | **Pendientes**: se generan al ejecutar el pipeline en una máquina con acceso a internet |
 
 ## Instalación y ejecución
 
