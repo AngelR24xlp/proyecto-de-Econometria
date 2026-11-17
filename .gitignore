@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+smoke_run/
+.venv/
+.DS_Store
+# datos descargados y resultados se regeneran con run_all.py (comente estas líneas si desea versionarlos)
+data/raw/json/
