@@ -63,5 +63,3 @@ python tests/smoke_test.py
 ```
 Genera datos sintéticos en `smoke_run/` y ejecuta los módulos 02-09. **No citar ni usar esos resultados.**
 
-Con los resultados reales (`outputs/`), el paper en Word se redacta sobre `tokens_paper.json` y las tablas exportadas.
-Las secciones teóricas y la literatura se escriben con referencias verificadas; las de resultados se completan solo con cifras generadas por el pipeline.
