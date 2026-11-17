@@ -1,8 +1,7 @@
 # Determinantes macroeconómicos del PBI del Perú, 2010-2025 
 
-Proyecto econométrico reproducible en Python. Autor: Ángel Ricardo Amrchan Collazos (GitHub: AngelR24xlp).
+Autor: Ángel Ricardo Marchan Collazos (GitHub: AngelR24xlp).
 
-> **Principio del proyecto:** ningún coeficiente, estadístico, significancia ni referencia se escribe a mano.
 > Todo resultado sale de datos descargados de la API oficial BCRPData y de estimaciones ejecutadas por este código.
 
 ## Estado de verificación (léase antes de ejecutar)
@@ -63,8 +62,6 @@ python run_all.py                                       # 01 -> 09
 python tests/smoke_test.py
 ```
 Genera datos sintéticos en `smoke_run/` y ejecuta los módulos 02-09. **No citar ni usar esos resultados.**
-
-## Siguiente paso: el paper
 
 Con los resultados reales (`outputs/`), el paper en Word se redacta sobre `tokens_paper.json` y las tablas exportadas.
 Las secciones teóricas y la literatura se escriben con referencias verificadas; las de resultados se completan solo con cifras generadas por el pipeline.
